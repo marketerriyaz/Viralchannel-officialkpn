@@ -1,0 +1,940 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+
+
+  <!-- Meta Pixel Code -->
+
+<script>
+
+!function(f,b,e,v,n,t,s)
+
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+n.queue=[];t=b.createElement(e);t.async=!0;
+
+t.src=v;s=b.getElementsByTagName(e)[0];
+
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1071264755455745');
+
+fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+src="https://www.facebook.com/tr?id=1071264755455745&ev=PageView&noscript=1"
+
+/></noscript>
+
+<!-- End Meta Pixel Code -->
+
+  
+
+  
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+
+<title>Pankaj Bhardwaj Official</title>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+
+
+<style>
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+
+
+html,
+
+body{
+
+width:100%;
+
+max-width:100%;
+
+overflow-x:hidden;
+
+}
+
+
+
+body{
+
+font-family:Inter,sans-serif;
+
+background:#020b08;
+
+color:#fff;
+
+}
+
+
+
+body::before{
+
+content:'';
+
+position:fixed;
+
+inset:0;
+
+background:
+
+radial-gradient(circle at center, rgba(0,255,170,.15), transparent 40%),
+
+radial-gradient(circle at 20% 20%, rgba(0,255,170,.08), transparent 25%),
+
+#020b08;
+
+z-index:-1;
+
+}
+
+
+
+.bg{
+
+position:fixed;
+
+inset:0;
+
+background:
+
+radial-gradient(circle at center, rgba(0,255,170,.15), transparent 40%),
+
+radial-gradient(circle at 20% 20%, rgba(0,255,170,.08), transparent 25%),
+
+#020b08;
+
+}
+
+
+
+.wrap{
+
+position:relative;
+
+z-index:2;
+
+max-width:720px;
+
+width:100%;
+
+margin:auto;
+
+padding:40px 20px;
+
+overflow-x:hidden;
+
+}
+
+
+
+.live,
+
+.joined{
+
+display:flex;
+
+gap:10px;
+
+justify-content:center;
+
+align-items:center;
+
+flex-wrap:wrap;
+
+text-align:center;
+
+padding:12px 18px;
+
+border-radius:999px;
+
+background:rgba(8,30,22,.7);
+
+border:1px solid rgba(20,241,149,.25);
+
+box-shadow:0 0 30px rgba(20,241,149,.12);
+
+width:100%;
+
+max-width:100%;
+
+margin:0 auto 24px;
+
+}
+
+
+
+.dot{
+
+width:10px;
+
+height:10px;
+
+border-radius:50%;
+
+background:#FF3131;
+
+box-shadow:0 0 15px #DE3163;
+
+}
+
+
+
+.logo-wrap{
+
+width:170px;
+
+height:170px;
+
+margin:0 auto 20px;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+overflow:hidden;
+
+box-shadow:
+
+0 0 0 4px rgba(20,241,149,.3),
+
+0 0 40px rgba(20,241,149,.5);
+
+}
+
+
+
+.logo-wrap img{
+
+width:100%;
+
+height:100%;
+
+object-fit:cover;
+
+border-radius:50%;
+
+display:block;
+
+}
+
+
+
+h1{
+
+text-align:center;
+
+font-size:54px;
+
+font-weight:800;
+
+}
+
+
+
+.sub{
+
+text-align:center;
+
+color:#ffcf4d;
+
+margin:12px 0;
+
+}
+
+
+
+.stars{
+
+text-align:center;
+
+color:#ffcf4d;
+
+}
+
+
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:14px;
+
+margin:30px 0;
+
+}
+
+
+
+.card{
+
+background:rgba(8,30,22,.65);
+
+border:1px solid rgba(20,241,149,.18);
+
+border-radius:20px;
+
+padding:20px;
+
+text-align:center;
+
+box-shadow:0 0 25px rgba(20,241,149,.08);
+
+}
+
+
+
+.card b{
+
+font-size:32px;
+
+color:#14f195;
+
+}
+
+
+
+.hero{
+
+font-size:42px;
+
+font-weight:800;
+
+text-align:center;
+
+line-height:1.25;
+
+margin:25px 0;
+
+}
+
+
+
+.green{
+
+color:#14f195;
+
+text-shadow:0 0 15px rgba(20,241,149,.8);
+
+}
+
+
+
+.desc{
+
+text-align:center;
+
+color:#9ab3a8;
+
+font-size:18px;
+
+line-height:1.6;
+
+}
+
+
+
+.btn{
+
+display:block;
+
+text-align:center;
+
+text-decoration:none;
+
+color:#001d12;
+
+font-weight:800;
+
+font-size:30px;
+
+background:#14f195;
+
+padding:24px;
+
+border-radius:22px;
+
+margin:25px 0;
+
+box-shadow:0 0 50px rgba(20,241,149,.55);
+
+transition:.3s;
+
+}
+
+
+
+.btn:hover{
+
+transform:scale(1.02);
+
+}
+
+
+
+.feature{
+
+background:rgba(8,30,22,.65);
+
+border:1px solid rgba(20,241,149,.15);
+
+border-radius:20px;
+
+padding:22px;
+
+margin:14px 0;
+
+}
+
+
+
+.feature:before{
+
+content:"✔ ";
+
+color:#14f195;
+
+}
+
+
+
+.limit{
+
+text-align:center;
+
+color:#14f195;
+
+margin:18px 0;
+
+font-weight:700;
+
+}
+
+
+
+.dis{
+
+text-align:center;
+
+color:#75867e;
+
+line-height:1.8;
+
+font-size:13px;
+
+margin-top:35px;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+
+.wrap{
+
+padding:30px 15px;
+
+}
+
+
+
+h1{
+
+font-size:36px;
+
+}
+
+
+
+.hero{
+
+font-size:28px;
+
+}
+
+
+
+.desc{
+
+font-size:16px;
+
+}
+
+
+
+.btn{
+
+font-size:22px;
+
+padding:18px;
+
+}
+
+
+
+.cards{
+
+grid-template-columns:repeat(3,1fr);
+
+gap:8px;
+
+}
+
+
+
+.card{
+
+padding:12px;
+
+}
+
+
+
+.card b{
+
+font-size:20px;
+
+}
+
+
+
+.live,
+
+.joined{
+
+font-size:14px;
+
+padding:12px;
+
+}
+
+
+
+.logo-wrap{
+
+width:140px;
+
+height:140px;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+@keyframes pulseGlow{
+
+0%,100%{transform:scale(1);}
+
+50%{transform:scale(1.03);}
+
+}
+
+
+
+@keyframes floatUp{
+
+0%,100%{transform:translateY(0);}
+
+50%{transform:translateY(-4px);}
+
+}
+
+
+
+.logo-wrap{
+
+animation:floatUp 3s ease-in-out infinite;
+
+}
+
+
+
+.btn{
+
+animation:pulseGlow 2s infinite;
+
+transition:.3s;
+
+}
+
+
+
+.card{
+
+transition:.3s;
+
+}
+
+
+
+.card:hover{
+
+transform:translateY(-4px);
+
+}
+
+
+
+.feature{
+
+transition:.3s;
+
+}
+
+
+
+.feature:hover{
+
+transform:translateX(4px);
+
+}
+
+
+
+.timer-box{
+
+margin:18px 0;
+
+padding:16px;
+
+text-align:center;
+
+border-radius:18px;
+
+background:rgba(8,30,22,.75);
+
+border:1px solid rgba(20,241,149,.25);
+
+box-shadow:0 0 30px rgba(20,241,149,.12);
+
+font-weight:700;
+
+}
+
+
+
+#offerTimer{
+
+color:#14f195;
+
+font-size:26px;
+
+font-weight:800;
+
+text-shadow:0 0 15px rgba(20,241,149,.8);
+
+}
+
+
+
+  
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="bg"></div>
+
+
+
+<div class="wrap">
+
+
+
+<div class="live">
+
+<span class="dot"></span>
+
+LIVE • <span id="online">5647</span> Traders online now 📈
+
+</div>
+
+
+
+<div class="timer-box">
+
+⏰ OFFER EXPIRES IN<br>
+
+<span id="offerTimer">13:00</span>
+
+</div>
+
+  
+
+<div class="logo-wrap">
+
+<img src="https://telegram-ads.riyazshaikh.com/wp-content/uploads/2025/08/pankaj-image-2.jpg" alt="Pankaj Bhardwaj">
+
+</div>
+
+
+
+<h1>Pankaj Bhardwaj</h1>
+
+
+
+<div class="sub">
+
+🏆 India's No.1 Stock Market Channel
+
+</div>
+
+
+
+<div class="stars">
+
+★★★★★ (4.9/5 rating)
+
+</div>
+
+
+
+<div class="cards">
+
+<div class="card">
+
+<b>42K+</b><br>
+
+Subscribers
+
+</div>
+
+
+
+<div class="card">
+
+<b>5+ Yrs</b><br>
+
+Experience
+
+</div>
+
+
+
+<div class="card">
+
+<b>100%</b><br>
+
+Free Access
+
+</div>
+
+</div>
+
+
+
+<div class="hero">
+
+Join Free Now Pankaj Bhardwaj Channel and get daily premium calls for
+
+<span class="green">NIFTY, BANKNIFTY & SENSEX</span>
+
+with <span class="green">95% accuracy</span> & Account Handling Work
+
+</div>
+
+
+
+<div class="desc">
+
+Join thousands of traders receiving free market updates, analysis & account handling support.
+
+</div>
+
+
+
+<div class="joined">
+
+🔥 7,589 people joined today! • Limited time:
+
+<span class="green">100% FREE access</span>
+
+</div>
+
+
+
+<a class="btn" href="https://t.me/+Xa9NubdGmrk5MzJl">
+
+✈ Join Free Telegram Channel
+
+</a>
+
+
+
+<div class="feature">📈 Daily Nifty & BankNifty Levels</div>
+
+<div class="feature">🎓 No Paid Tips — Purely Educational</div>
+
+<div class="feature">🏆 5+ Years of Market Experience</div>
+
+<div class="feature">👥 42,000+ Subscribers Trust Us Already</div>
+
+<div class="feature">💼 Account Handling Work with 95% Accuracy</div>
+
+
+
+<div class="joined">
+
+✨ 7,589 people joined today!
+
+</div>
+
+
+
+<a class="btn" href="https://t.me/+Xa9NubdGmrk5MzJl">
+
+✈ Join Free Telegram Channel
+
+</a>
+
+
+
+<div class="timer-box">
+
+⏰ OFFER EXPIRES SOON...
+
+</div>
+
+  
+
+<div class="limit">
+
+Limited time: 100% FREE access
+
+</div>
+
+<br>
+
+<div class="dis">
+
+Disclaimer: This channel is for educational and informational purposes only.
+
+Trading and investing involve risk. Please consult your financial advisor before making investment decisions.
+
+</div>
+
+
+
+</div>
+
+
+
+<script>
+
+setInterval(() => {
+
+let e = document.getElementById('online');
+
+let n = parseInt(e.innerText);
+
+
+
+n = Math.max(
+
+5000,
+
+n + (Math.floor(Math.random() * 5) - 2)
+
+);
+
+
+
+e.innerText = n;
+
+}, 3000);
+
+
+
+  let offerTime = 13 * 60;
+
+
+
+setInterval(() => {
+
+
+
+let minutes = Math.floor(offerTime / 60);
+
+let seconds = offerTime % 60;
+
+
+
+document.getElementById("offerTimer").innerText =
+
+String(minutes).padStart(2,'0') +
+
+":" +
+
+String(seconds).padStart(2,'0');
+
+
+
+if(offerTime > 0){
+
+offerTime--;
+
+}
+
+
+
+},1000);
+
+</script>
+
+
+
+</body>
+
+</html>
